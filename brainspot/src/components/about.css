@@ -1,0 +1,33 @@
+.about-section {
+    /* Styles for the entire section */
+    
+  }
+  
+  .background-image {
+    background-image:url('./Images/design.png');
+    display: flex;
+    flex-wrap: wrap;
+    
+
+  }
+  h4{
+    font-size:49px;
+    color: #413b76;
+    text-align: center;
+   
+
+  }
+  .content {
+    text-align: center;
+    color: #000000;
+    padding: 20px;
+   position: relative;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  .more-info-button{
+    background-color: #8a7eff;
+  color: white;
+  }

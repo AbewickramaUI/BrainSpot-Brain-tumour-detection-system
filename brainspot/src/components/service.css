@@ -1,0 +1,27 @@
+.service-container {
+    text-align: center;
+  }
+  
+  .service-item {
+    margin-bottom: 20px;
+  }
+  
+ /* .service-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .service-item p {
+    margin-top: 10px;
+    font-size: 14px;
+  }*/
+  
+  .service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+    
+  

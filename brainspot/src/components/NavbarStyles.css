@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap');
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    background-color: #8a7eff;
+    padding:10px 100px ;
+
+  
+    box-shadow: 0 5px 15px rgb(0,0,0,0.06 );
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 250px;
+    margin-left: 100px;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 30px;
+    position: relative;
+    align-items: center;
+    
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 600;
+    color: #000;
+    transition: 0.3s ease-in-out ;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: blanchedalmond;
+}
+#navbar li a:hover::after,
+#navbar li a.active::after{
+   content: "";
+   width: 72%;
+   height: 2px;
+   background:blanchedalmond ;
+   position: absolute;
+   bottom: -4px;
+   left:20px;
+}
+#mobile{
+    display: none;
+}
+#mobile i{
+    color: azure;
+}
+
+@media screen and (max-width:769px) {
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-items: flex-start;
+        justify-content:flex-start;
+        position: fixed;
+        top: 0x;
+        right: -300px;
+        width: 150px;
+        height: 100vh;
+        background: #8a7eff;
+        box-shadow: 0 40px 60 rgba(0,0 0,0 , 0.1);
+        padding: 40px 0 0 10px;
+        transition: 0.3s ease-in-out;
+        margin-right: 0px;
+    }
+    #navbar.active{
+        right: 0px;
+    }
+    #navbar{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display:block;
+    }
+    #mobile i{
+        font-size: 24px;
+        cursor: pointer;
+    }
+}
+
+img{
+    width: 430px;
+    height: 550px;
+    margin-left: 100px;
+
+}
+img1{
+    width: 430px;
+    height: 550px;
+    margin-right: 100px;
+
+}
+.login-button {
+    
+    background-color: #4e4698;
+    color: rgb(238, 236, 236);
+    margin-top: 50px;
+    max-width: 250px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+ 
